@@ -1,4 +1,5 @@
 ﻿using ControlDeAcceso.Data.Entities;
+using ControlDeAcceso.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -55,19 +56,19 @@ namespace ControlDeAcceso.Helpers
             return await _userManager.IsInRoleAsync(user, roleName);
         }
 
-        //public async Task<SignInResult> LoginAsync(LoginViewModel model)
-        //{
-        //    return await _signInManager.PasswordSignInAsync(
-        //        model.Username,
-        //        model.Password,
-        //        model.RememberMe,
-        //        false);
-        //}
+        public async Task<SignInResult> LoginAsync(LoginViewModel model)
+        {
+            return await _signInManager.PasswordSignInAsync(
+                model.Username,
+                model.Password,
+                model.RememberMe,
+                false);
+        }
 
-        //public async Task LogoutAsync()
-        //{
-        //    await _signInManager.SignOutAsync();
-        //}
+        public async Task LogoutAsync()
+        {
+            await _signInManager.SignOutAsync();
+        }
 
         //public async Task<bool> DeleteUserAsync(string email)
         //{

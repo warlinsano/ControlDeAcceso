@@ -27,10 +27,6 @@ namespace ControlDeAcceso.Data.Entities
         [MaxLength(100, ErrorMessage = "The {0} field can not have more than {1} characters.")]
         public string Address { get; set; }
 
-        public bool Estado { get; set; }
-
-        public DocumentType DocumentType { get; set; }
-
         [Display(Name = "Full Name")]
         public string FullName => $"{FirstName} {LastName}";
 

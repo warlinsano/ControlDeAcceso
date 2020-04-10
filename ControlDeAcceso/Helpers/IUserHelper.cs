@@ -1,4 +1,5 @@
 ﻿using ControlDeAcceso.Data.Entities;
+using ControlDeAcceso.Models;
 using Microsoft.AspNetCore.Identity;
 using System;
 using System.Collections.Generic;
@@ -20,26 +21,26 @@ namespace ControlDeAcceso.Helpers
 
             Task<bool> IsUserInRoleAsync(User user, string roleName);
 
-            //Task<SignInResult> LoginAsync(LoginViewModel model);
+            Task<SignInResult> LoginAsync(LoginViewModel model);
 
-            //Task LogoutAsync();
+            Task LogoutAsync();
 
-            //Task<bool> DeleteUserAsync(string email);
+        //Task<bool> DeleteUserAsync(string email);
 
-            //Task<IdentityResult> UpdateUserAsync(User user);
+        //Task<IdentityResult> UpdateUserAsync(User user);
 
-            //Task<SignInResult> ValidatePasswordAsync(User user, string password);
+        //Task<SignInResult> ValidatePasswordAsync(User user, string password);
 
-            //Task<IdentityResult> ChangePasswordAsync(User user, string oldPassword, string newPassword);
+        //Task<IdentityResult> ChangePasswordAsync(User user, string oldPassword, string newPassword);
 
-            //Task<string> GenerateEmailConfirmationTokenAsync(User user);
+        //Task<string> GenerateEmailConfirmationTokenAsync(User user);
 
-            //Task<IdentityResult> ConfirmEmailAsync(User user, string token);
+        //Task<IdentityResult> ConfirmEmailAsync(User user, string token);
 
-            //Task<User> GetUserByIdAsync(string userId);
+        //Task<User> GetUserByIdAsync(string userId);
 
-            //Task<string> GeneratePasswordResetTokenAsync(User user);
+        //Task<string> GeneratePasswordResetTokenAsync(User user);
 
-            //Task<IdentityResult> ResetPasswordAsync(User user, string token, string password);
-        }   
+        //Task<IdentityResult> ResetPasswordAsync(User user, string token, string password);
+    }
 }

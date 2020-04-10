@@ -15,6 +15,6 @@ namespace ControlDeAcceso.Data.Entities
         [Display(Name = "Tipo Identificacion")]
         public string Name { get; set; }
 
-        public  ICollection<User> User { get; set; }
+        //public  ICollection<User> User { get; set; }
     }
 }

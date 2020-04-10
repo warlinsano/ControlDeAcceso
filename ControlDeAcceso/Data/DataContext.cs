@@ -15,7 +15,6 @@ namespace ControlDeAcceso.Data
 
         }
 
-
         public  DbSet<DocumentType> DocumentType { get; set; }
     }
 }
