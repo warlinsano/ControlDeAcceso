@@ -178,4 +178,8 @@ C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debu
 C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\obj\Debug\netcoreapp3.1\Razor\Views\Account\Login.cshtml.g.cs
 C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\obj\Debug\netcoreapp3.1\Razor\Views\Account\Register.cshtml.g.cs
 C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
 C:\Users\Fanny-pc\Documents\REPOSITORIO\ControlDeAcceso\ControlDeAcceso\obj\Debug\netcoreapp3.1\ControlDeAcceso.MvcApplicationPartsAssemblyInfo.cache
